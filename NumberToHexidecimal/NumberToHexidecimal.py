@@ -16,3 +16,4 @@ while playing == True:
         print("You quit the program.")
         number = 0
         break
+# By rafaelcaruana
