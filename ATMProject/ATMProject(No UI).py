@@ -1,21 +1,24 @@
+import time
+
+
 loop = 0
 balance = 1000
 cashinhand = 1000
 while loop != 1:
-    WAmount = 0
-    DAmount = 0
+    
 
 
    
     print("Bank Balance £",balance)
+    time.sleep(0.5)
 
 
    
     print("You have £",cashinhand, "in cash.")
-
+    time.sleep(0.5)
 
     print("Type 'W' to withdraw, 'D' to deposit, and 'Q' to quit.")
-
+    time.sleep(0.5)
 
     Option = input()
 
@@ -29,6 +32,7 @@ while loop != 1:
        
         else:
             print("You withdrew £",WAmount, "from your account.")
+            time.sleep(0.5)
             balance = balance - WAmount
             cashinhand = cashinhand + WAmount
        
@@ -48,4 +52,5 @@ while loop != 1:
         break
     else:
        break
+
 # By rafaelcaruana
