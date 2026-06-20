@@ -48,6 +48,12 @@ lv1.insert(3, "GBP")
 lv1.insert(4, "JPY")
 lv1.insert(5, "AUD")
 lv1.insert(6, "CAD")
+lv1.insert(7, "CHF")
+lv1.insert(8, "CNY")
+lv1.insert(9, "SEK")
+lv1.insert(10, "NZD")
+lv1.insert(11, "MXN")
+
 
 lv1.pack(pady=10)
 
@@ -66,6 +72,12 @@ lv2.insert(3, "GBP")
 lv2.insert(4, "JPY")
 lv2.insert(5, "AUD")
 lv2.insert(6, "CAD")
+lv2.insert(7, "CHF")
+lv2.insert(8, "CNY")
+lv2.insert(9, "SEK")
+lv2.insert(10, "NZD")
+lv2.insert(11, "MXN")
+
 
 lv2.pack(pady=10)
 lv2.bind('<<ListboxSelect>>', onselect2)
@@ -91,5 +103,4 @@ convert_button = tk.Button(root, text="Convert", command=convert)
 convert_button.pack(pady=20)
 print(selectedfrom, selectedto)
 root.mainloop()
-
 #by rafaelcaruana
