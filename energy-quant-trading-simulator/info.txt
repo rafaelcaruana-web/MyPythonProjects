@@ -1,0 +1,6 @@
+This Quant energy Trading log firstly runs a local, fake energy market for natural gas with crazy price swings.
+The user starts with a virtual £10,000 and used automated trading rules:
+  - BUY: Automatically stacks up units if the price drops below £75.
+  - TAKE PROFIT: Sells everything to lock in cash gains if the price jumps past £76.
+  - KILL SWITCH: Automatically shuts down early if net profits hit +£1,500 to save the cash.
+  - LOG ENGINE: Automatically writes every single day's stats into an Excel CSV spreadsheet!
