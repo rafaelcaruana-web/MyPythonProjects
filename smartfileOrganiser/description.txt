@@ -1,0 +1,5 @@
+
+A Python desktop application that automatically organises files into categories such as Images,
+Documents, Videos and Other.
+  
+Features a Tkinter graphical interface, duplicate protection and an organisation summary report.
